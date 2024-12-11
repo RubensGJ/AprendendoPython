@@ -1,0 +1,5 @@
+teste = input('Digite o que quiser: ')
+print(type(teste))
+print('É numero ou letra?', teste.isalnum())
+print('é numero?', teste.isnumeric())
+print('É letra?', teste.isalpha())       
